@@ -3,7 +3,7 @@ import React from "react";
 
 const Sentiment = (props) => {
     return (
-        <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', height: '30vh'}}>
+        <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
           <div className="sentiment-card red-card">
             <h2>Negative</h2>
            {props.data?.most_negative && <p>"{props.data?.most_negative}"</p>}

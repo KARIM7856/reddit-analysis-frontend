@@ -23,6 +23,7 @@ const Content = () => {
     }
   };
 
+  
   return (
     <div className="bg-redditDark text-light p-4">
       <img src="https://cdn-icons-png.flaticon.com/512/3670/3670226.png" className="hover:animate-spin-slow" width={100} height="100px" ></img>
