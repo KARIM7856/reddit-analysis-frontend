@@ -9,7 +9,7 @@ const Content = () => {
   const [data, setData] = useState({ data: [] });
   const [hashtag, setHashtag] = useState("");
 
-  const endpoint = "http://localhost:8000/home/hashtags";
+  const endpoint = "https://reddit-anaysis-backend.vercel.app/home/hashtags";
 
   const loadData = async () => {
     try {
